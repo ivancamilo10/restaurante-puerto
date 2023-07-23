@@ -93,7 +93,7 @@ window.onscroll = function() {
         headerText.style.opacity = -window.pageYOffset / 300 + 1;
     }
     // home page JS
-    if (pageTitle.text === "ROSA- Restaurant") {
+    if (pageTitle.text === "Paraiso Del Artesano") {
         //change dots background color
         if (window.pageYOffset < headerSection.offsetHeight * 0.5) {
             dots.forEach(dot => dot.classList.remove("black"));
@@ -138,7 +138,7 @@ window.onscroll = function() {
 };
 
 // home page JS
-if (pageTitle.text === "ROSA- Restaurant") {
+if (pageTitle.text === "Paraiso Del Artesano") {
     // svg-down smooth scroll
     svgDown.addEventListener("click", () => {
         window.scroll({
