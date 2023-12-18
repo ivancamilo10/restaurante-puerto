@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("internet-3113279_1280.jpg");
+  }
+  .card {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .btn-whatsapp {
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+  }
+  .btn-whatsapp:hover {
+    background-color: #128c7e;
+    color: #fff;
+  }
+  .card{
+    background: linear-gradient( #128c7e, rgb(142, 255, 142));
+  }
+  .btn-home:hover {
+    background-color: #c5c5c5;
+    color: #26e600;
+  }
